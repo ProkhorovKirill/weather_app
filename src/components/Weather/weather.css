@@ -1,0 +1,26 @@
+.weather_block{
+    background-color: aliceblue;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.weather_block_list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: clamp(0.5rem, 1vw + 0.6rem, 1.2rem);
+
+}
+
+.weather_block_list_item{
+    border: 1px solid rgb(216, 214, 214);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
